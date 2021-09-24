@@ -16,6 +16,7 @@
 		859E0E6426F88C100039C1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859E0E6326F88C100039C1C8 /* Assets.xcassets */; };
 		859E0E6726F88C100039C1C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859E0E6626F88C100039C1C8 /* Preview Assets.xcassets */; };
 		859E0E6A26F88C100039C1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859E0E6826F88C100039C1C8 /* LaunchScreen.storyboard */; };
+		85C3FF7926FE4C93001B8C79 /* Mobillian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C3FF7826FE4C93001B8C79 /* Mobillian.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		859E0E6626F88C100039C1C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		859E0E6926F88C100039C1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859E0E6B26F88C100039C1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C3FF7826FE4C93001B8C79 /* Mobillian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobillian.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				859E0E3E26F88ADE0039C1C8 /* Mobillian.h */,
 				859E0E3F26F88ADE0039C1C8 /* Info.plist */,
+				85C3FF7826FE4C93001B8C79 /* Mobillian.swift */,
 			);
 			path = Mobillian;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				TargetAttributes = {
 					859E0E3A26F88ADD0039C1C8 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					859E0E4326F88ADE0039C1C8 = {
 						CreatedOnToolsVersion = 12.4;
@@ -270,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C3FF7926FE4C93001B8C79 /* Mobillian.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		859E0E5026F88ADE0039C1C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ABC5689P89;
@@ -454,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.datailor.Mobillian;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +469,7 @@
 		859E0E5126F88ADE0039C1C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ABC5689P89;
@@ -486,6 +494,7 @@
 		859E0E5326F88ADE0039C1C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ABC5689P89;
 				INFOPLIST_FILE = MobillianTests/Info.plist;
@@ -504,6 +513,7 @@
 		859E0E5426F88ADE0039C1C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ABC5689P89;
 				INFOPLIST_FILE = MobillianTests/Info.plist;
