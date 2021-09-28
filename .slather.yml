@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: Mobillian.xcodeproj
+scheme: Mobillian
+output_directory: reports
+ignore:
+  - MobillianTests/*
