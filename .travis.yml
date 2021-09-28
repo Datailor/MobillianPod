@@ -3,3 +3,7 @@ osx_image: xcode12.4
 xcode_project: Mobillian.xcodeproj
 xcode_scheme: Mobillian
 xcode_destination: platform=iOS Simulator,OS=14.1,name=iPhone 12
+
+after_success:
+  - slather
+  - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
