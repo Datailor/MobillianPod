@@ -1,6 +1,6 @@
 language: swift
 os: osx
-osx_image: xcode10.1
+osx_image: xcode12.5
 env:
   matrix:
     - TEST_SDK=iphonesimulator12.1 OS=14.1 NAME='iPhone 12'
