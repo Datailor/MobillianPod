@@ -1,9 +1,5 @@
 language: swift
 osx_image: xcode12.4
-env:
-  matrix:
-    - TEST_SDK=iphonesimulator12.4 OS=14.1 NAME='iPhone 12'
-    - TEST_SDK=iphonesimulator12.4 OS=14.1 NAME='iPhone 8'
-
-script:
-  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project Mobillian.xcodeproj -scheme Mobillian -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=14.1,name=iPhone 12" ONLY_ACTIVE_ARCH=YES
+xcode_project: Mobillian.xcodeproj
+xcode_scheme: MobillianTests
+xcode_destination: platform=iOS Simulator,OS=14.1,name=iPhone 12
