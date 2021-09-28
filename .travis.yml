@@ -1,5 +1,5 @@
 language: swift
 osx_image: xcode12.4
 xcode_project: Mobillian.xcodeproj
-xcode_scheme: MobillianTests
+xcode_scheme: Mobillian
 xcode_destination: platform=iOS Simulator,OS=14.1,name=iPhone 12
