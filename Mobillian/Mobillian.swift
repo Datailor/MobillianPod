@@ -1,9 +1,3 @@
-//
-//  Mobillian.swift
-//  Mobillian
-//
-//  Created by Ahmet Han on 24.09.2021.
-//
 
 public final class Mobillian {
 

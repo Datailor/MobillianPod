@@ -1,9 +1,3 @@
-//
-//  Mobillian.h
-//  Mobillian
-//
-//  Created by Ahmet Han on 20.09.2021.
-//
 
 #import <Foundation/Foundation.h>
 

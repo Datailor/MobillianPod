@@ -17,6 +17,12 @@
 		859E0E6726F88C100039C1C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859E0E6626F88C100039C1C8 /* Preview Assets.xcassets */; };
 		859E0E6A26F88C100039C1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859E0E6826F88C100039C1C8 /* LaunchScreen.storyboard */; };
 		85C3FF7926FE4C93001B8C79 /* Mobillian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C3FF7826FE4C93001B8C79 /* Mobillian.swift */; };
+		85E58772270B8E0900085B9A /* MOBApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E58771270B8E0900085B9A /* MOBApplicationService.swift */; };
+		85E58778270B910A00085B9A /* eGenderFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E58777270B910A00085B9A /* eGenderFilter.swift */; };
+		85E5877D270B91A400085B9A /* eAgeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5877C270B91A400085B9A /* eAgeFilter.swift */; };
+		85E58783270B925300085B9A /* mLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E58782270B925300085B9A /* mLocation.swift */; };
+		85E58788270B937100085B9A /* rqProjectFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E58787270B937100085B9A /* rqProjectFilter.swift */; };
+		85E5878F270B99B600085B9A /* rsProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5878E270B99B600085B9A /* rsProject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		859E0E6926F88C100039C1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859E0E6B26F88C100039C1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85C3FF7826FE4C93001B8C79 /* Mobillian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobillian.swift; sourceTree = "<group>"; };
+		85E58771270B8E0900085B9A /* MOBApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOBApplicationService.swift; sourceTree = "<group>"; };
+		85E58777270B910A00085B9A /* eGenderFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eGenderFilter.swift; sourceTree = "<group>"; };
+		85E5877C270B91A400085B9A /* eAgeFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eAgeFilter.swift; sourceTree = "<group>"; };
+		85E58782270B925300085B9A /* mLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mLocation.swift; sourceTree = "<group>"; };
+		85E58787270B937100085B9A /* rqProjectFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rqProjectFilter.swift; sourceTree = "<group>"; };
+		85E5878E270B99B600085B9A /* rsProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rsProject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +108,12 @@
 		859E0E3D26F88ADE0039C1C8 /* Mobillian */ = {
 			isa = PBXGroup;
 			children = (
+				85E58781270B924500085B9A /* Models */,
+				85E58776270B8FFA00085B9A /* Enums */,
 				859E0E3E26F88ADE0039C1C8 /* Mobillian.h */,
 				859E0E3F26F88ADE0039C1C8 /* Info.plist */,
 				85C3FF7826FE4C93001B8C79 /* Mobillian.swift */,
+				85E58771270B8E0900085B9A /* MOBApplicationService.swift */,
 			);
 			path = Mobillian;
 			sourceTree = "<group>";
@@ -132,6 +147,41 @@
 				859E0E6626F88C100039C1C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85E58776270B8FFA00085B9A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				85E58777270B910A00085B9A /* eGenderFilter.swift */,
+				85E5877C270B91A400085B9A /* eAgeFilter.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		85E58781270B924500085B9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85E5878D270B99A000085B9A /* Response */,
+				85E5878C270B998F00085B9A /* Request */,
+				85E58782270B925300085B9A /* mLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85E5878C270B998F00085B9A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				85E58787270B937100085B9A /* rqProjectFilter.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		85E5878D270B99A000085B9A /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				85E5878E270B99B600085B9A /* rsProject.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +325,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C3FF7926FE4C93001B8C79 /* Mobillian.swift in Sources */,
+				85E58778270B910A00085B9A /* eGenderFilter.swift in Sources */,
+				85E58772270B8E0900085B9A /* MOBApplicationService.swift in Sources */,
+				85E5877D270B91A400085B9A /* eAgeFilter.swift in Sources */,
+				85E58788270B937100085B9A /* rqProjectFilter.swift in Sources */,
+				85E5878F270B99B600085B9A /* rsProject.swift in Sources */,
+				85E58783270B925300085B9A /* mLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

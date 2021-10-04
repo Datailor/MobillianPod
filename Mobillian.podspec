@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "Mobillian"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of Mobillian."
+  spec.summary      = "Mobillian SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Mobillian Pod Description"
+  spec.description  = "Access active surveys offered by Mobillian with the Mobillian SDK. You can diversify your revenue model by integrating your audience into Mobillian."
 
   spec.homepage     = "https://www.mobillian.co"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source        = { :git => "https://github.com/ahmeturhan/MobillianPod.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/Datailor/MobillianPod.git", :tag => "#{spec.version}" }
   spec.source_files  = "Mobillian/**/*.{h,m,swift}"
 
 
