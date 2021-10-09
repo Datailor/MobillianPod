@@ -1,7 +1,7 @@
 
 import Foundation
 
-class rqProjectFilter{
+public class rqProjectFilter{
 
     
     let gender: eGenderFilter?

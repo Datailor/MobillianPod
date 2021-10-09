@@ -1,13 +1,13 @@
 
 import Foundation
 
-enum eAgeFilter {
-    case all
-    case a13_17
-    case a18_24
-    case a25_34
-    case a35_44
-    case a45_54
-    case a55_64
-    case a65Above
+enum eAgeFilter: Int, Codable {
+    case all = 0
+    case a13_17 = 1
+    case a18_24 = 2
+    case a25_34 = 3
+    case a35_44 = 4
+    case a45_54 = 5
+    case a55_64 = 6
+    case a65Above = 7
  }

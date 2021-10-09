@@ -33,7 +33,44 @@ class MobillianTests: XCTestCase {
     func testSub() {
         XCTAssertEqual(mobillian.sub(a: 2, b: 1), 1)
     }
+    
+    
+    func test_ReadApiKey() {
+        
+        print("step2")
+        
+        print("step11")
+        print(Bundle.main.object(forInfoDictionaryKey: "CFBundleName"))
+        print("step12")
+        print(Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion"))
+        print("step13")
+        print(Bundle.main.object(forInfoDictionaryKey: "MobillianApiKey"))
+        print("step14")
+        
+//        let deger:String =  Bundle.main.object(forInfoDictionaryKey: "MobillianApiKey") as! String
+//        print(deger)
+        
+        
+        //let deger:String = Bundle.main.object(forInfoDictionaryKey: "MobillianApiKey") as! String as! String
+        //XCTAssertEqual(deger, "3A0A012F-EFD9-49CF-A219-E79589230BCB")
+    
+        
+    
+    }
  
+    
+    func testGetProject_StandartAll() {
+       
+        let r: rsProject = GetProject(param: rqProject())
+
+        
+        XCTAssertEqual(r.isError, false)
+        XCTAssertGreaterThan(r.projects.count, 1)
+        
+    }
+ 
+    
+    
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

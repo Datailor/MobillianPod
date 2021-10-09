@@ -1,8 +1,8 @@
 
 import Foundation
 
-enum eGenderFilter {
-     case all
-     case male
-     case female
+enum eGenderFilter: Int, Codable {
+    case all = 0
+     case male = 1
+     case female = 2
  }

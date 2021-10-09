@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BFA436F2-BA60-4994-B816-66EA518FFE7C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCF9C058-F107-474E-B13C-3D63A524954F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobillianTests/MobillianTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "testGetProject_StandartAll()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FCF9C058-F107-474E-B13C-3D63A524954F - 5205abc10724c2ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "694">
+               </Location>
+               <Location
+                  uuid = "FCF9C058-F107-474E-B13C-3D63A524954F - 5205abc10724c2cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "FCF9C058-F107-474E-B13C-3D63A524954F - 5205abc10724c2ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "FCF9C058-F107-474E-B13C-3D63A524954F - 5205abc10724c023"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "FCF9C058-F107-474E-B13C-3D63A524954F - 5205abc10724c765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "FCF9C058-F107-474E-B13C-3D63A524954F - 5205abc10724c1f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01FC7C69-7360-4970-BC10-F624A83EA199"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MobillianTests/MobillianTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "testGetProject_StandartAll()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "01FC7C69-7360-4970-BC10-F624A83EA199 - 5205abc10724c309"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "01FC7C69-7360-4970-BC10-F624A83EA199 - 5205abc10724c328"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "01FC7C69-7360-4970-BC10-F624A83EA199 - 5205abc10724c309"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "01FC7C69-7360-4970-BC10-F624A83EA199 - 5205abc10724c0bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "01FC7C69-7360-4970-BC10-F624A83EA199 - 5205abc10724c7c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "01FC7C69-7360-4970-BC10-F624A83EA199 - 5205abc10724c253"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MobillianTests.MobillianTests.testGetProject_StandartAll() -&gt; ()"
+                  moduleName = "MobillianTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmethan/Documents/Codes/MobillianPods/MobillianTests/MobillianTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
