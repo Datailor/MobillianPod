@@ -1,16 +1,16 @@
 
 import Foundation
 
-public class rqProjectFilter{
+public class rqProjectFilter: Codable{
 
     
-    let gender: eGenderFilter?
-    let age: eAgeFilter?
+    var gender: eGenderFilter?
+    var age: eAgeFilter?
     let location: mLocation?
     
-    init() {
-        self.gender = .all
-        self.age = .all
+    init(gender: eGenderFilter = .all, age: eAgeFilter = .all) {
+        self.gender = gender
+        self.age = age
         self.location = mLocation(country: "", state: "", city: "", district: "")
     }
     
