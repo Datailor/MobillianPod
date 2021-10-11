@@ -8,5 +8,5 @@ struct MobillianApiKeys{
     static let CheckRespondentStatus = "application/CheckRespondentStatus"
     
     static let GetBalance = "responder/GetBalance"
-    
+
 }
