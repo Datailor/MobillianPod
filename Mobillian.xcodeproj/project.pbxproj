@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8528B78F2714256700B711CC /* SurveyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528B78E2714256700B711CC /* SurveyUI.swift */; };
+		8528B7922714550900B711CC /* SurveyUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528B7912714550900B711CC /* SurveyUIDelegate.swift */; };
 		852F5E0A270DDFBF00DB888B /* GetApiAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F5E09270DDFBF00DB888B /* GetApiAddress.swift */; };
 		852F5E10270F004400DB888B /* GeneralKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F5E0F270F004400DB888B /* GeneralKeys.swift */; };
 		852F5E16270F026F00DB888B /* MobillianApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F5E15270F026F00DB888B /* MobillianApiKeys.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		8528B78E2714256700B711CC /* SurveyUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyUI.swift; sourceTree = "<group>"; };
+		8528B7912714550900B711CC /* SurveyUIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyUIDelegate.swift; sourceTree = "<group>"; };
 		852F5E09270DDFBF00DB888B /* GetApiAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApiAddress.swift; sourceTree = "<group>"; };
 		852F5E0F270F004400DB888B /* GeneralKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralKeys.swift; sourceTree = "<group>"; };
 		852F5E15270F026F00DB888B /* MobillianApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobillianApiKeys.swift; sourceTree = "<group>"; };
@@ -119,6 +121,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		8528B790271454D800B711CC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8528B7912714550900B711CC /* SurveyUIDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		852F5E05270DDF9C00DB888B /* Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +179,7 @@
 		859E0E3D26F88ADE0039C1C8 /* Mobillian */ = {
 			isa = PBXGroup;
 			children = (
+				8528B790271454D800B711CC /* Protocols */,
 				8528B78D2714253900B711CC /* Views */,
 				852F5E14270F020800DB888B /* Api */,
 				852F5E0E270F001E00DB888B /* Keys */,
@@ -403,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8528B7922714550900B711CC /* SurveyUIDelegate.swift in Sources */,
 				85C3FF7926FE4C93001B8C79 /* Mobillian.swift in Sources */,
 				8528B78F2714256700B711CC /* SurveyUI.swift in Sources */,
 				85DC41302711DC30001B7A68 /* ApiTest.swift in Sources */,

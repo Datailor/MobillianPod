@@ -13,9 +13,10 @@ class MobillianTests: XCTestCase {
     var mobillian: Mobillian!
     
     override func setUp() {
-        mobillian = Mobillian(apikey: "3A0A012F-EFD9-49CF-A219-E79589230BCB")
         
-//        self.appid = "833CC8A3-1E19-4A6D-B451-5AB9BBA52839"
+        mobillian = Mobillian(apiId: "833CC8A3-1E19-4A6D-B451-5AB9BBA52839", apiKey: "3A0A012F-EFD9-49CF-A219-E79589230BCB")
+        
+
 //        self.userid = "kuBsmGcETPivEBkxNtv/VQ=="
         
     }
