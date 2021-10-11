@@ -3,7 +3,16 @@ import SwiftUI
 
 struct SurveyUI: View {
     var body: some View {
-        Text("Mobillian Survey Page")
+        VStack(alignment: .center) {
+            HStack{
+                Image("MobilianLogo")
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(.white)
+                Spacer()
+            }
+            Text("Mobillian Survey Page")
+            Spacer()
+        }
     }
 }
 
