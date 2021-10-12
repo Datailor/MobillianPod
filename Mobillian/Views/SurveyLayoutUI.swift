@@ -13,7 +13,7 @@ public struct SurveyLayoutUI: View,
         LandingDelegate,
         PhoneValidationDelegate,
         SurveyPageDelegate,
-                              LastPageDelegate {
+        LastPageDelegate {
 
     
 
@@ -23,6 +23,7 @@ public struct SurveyLayoutUI: View,
     
     public init() {
         activeStep = .landing
+        
     }
     
     public var body: some View {
@@ -117,10 +118,10 @@ public struct SurveyLayoutUI: View,
 }
 
 
-#if DEBUG
-struct SurveyUI_Previews: PreviewProvider {
-    static var previews: some View {
-        SurveyLayoutUI()
-    }
-}
-#endif
+//#if DEBUG
+//struct SurveyUI_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SurveyLayoutUI()
+//    }
+//}
+//#endif

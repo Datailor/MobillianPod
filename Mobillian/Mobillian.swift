@@ -3,6 +3,7 @@
     import FoundationNetworking
 #endif
 
+import UIKit
 
 public final class Mobillian {
 
@@ -11,17 +12,25 @@ public final class Mobillian {
     let ApiId: String
     let UserId: String
     
+    public var MainColor: CGColor
     
     public init(apiId: String, apiKey: String){
         self.ApiId = apiId
         self.ApiKey = apiKey
         self.UserId = ""
+        self.MainColor = CGColor.init(red: 13, green: 145, blue: 187, alpha: 1)
     }
     
     public init(apiId: String, apiKey: String, userId: String){
         self.ApiId = apiId
         self.ApiKey = apiKey
         self.UserId = userId
+        self.MainColor = CGColor.init(red: 13, green: 145, blue: 187, alpha: 1)
+    }
+    
+    
+    public func GetApiKey() -> String{
+        return self.ApiKey
     }
     
     public func GetApiTest() -> [String]{

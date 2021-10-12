@@ -11,13 +11,11 @@ import Mobillian
 struct ContentView: View {
     var body: some View {
         SurveyLayoutUI()
-//        Text("Hello, world!")
-//            .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
