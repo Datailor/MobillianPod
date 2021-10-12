@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import Mobillian
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        SurveyLayoutUI()
+//        Text("Hello, world!")
+//            .padding()
     }
 }
 

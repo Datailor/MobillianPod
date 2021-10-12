@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8528B78F2714256700B711CC /* SurveyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528B78E2714256700B711CC /* SurveyUI.swift */; };
-		8528B7922714550900B711CC /* SurveyUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528B7912714550900B711CC /* SurveyUIDelegate.swift */; };
+		8528B78F2714256700B711CC /* SurveyLayoutUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528B78E2714256700B711CC /* SurveyLayoutUI.swift */; };
+		8528B7942714E02400B711CC /* eSurveyStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8528B7932714E02400B711CC /* eSurveyStep.swift */; };
+		8528B79C2714E45600B711CC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8528B79E2714E45600B711CC /* Localizable.strings */; };
 		852F5E0A270DDFBF00DB888B /* GetApiAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F5E09270DDFBF00DB888B /* GetApiAddress.swift */; };
 		852F5E10270F004400DB888B /* GeneralKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F5E0F270F004400DB888B /* GeneralKeys.swift */; };
 		852F5E16270F026F00DB888B /* MobillianApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F5E15270F026F00DB888B /* MobillianApiKeys.swift */; };
@@ -24,6 +25,12 @@
 		859E0E6426F88C100039C1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859E0E6326F88C100039C1C8 /* Assets.xcassets */; };
 		859E0E6726F88C100039C1C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859E0E6626F88C100039C1C8 /* Preview Assets.xcassets */; };
 		859E0E6A26F88C100039C1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859E0E6826F88C100039C1C8 /* LaunchScreen.storyboard */; };
+		85C046EF2715882000197E2B /* Mobillian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E0E3B26F88ADE0039C1C8 /* Mobillian.framework */; platformFilter = ios; };
+		85C046F02715882000197E2B /* Mobillian.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 859E0E3B26F88ADE0039C1C8 /* Mobillian.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		85C046F52715C29600197E2B /* LandingStandart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C046F42715C29600197E2B /* LandingStandart.swift */; };
+		85C046F72715C9A200197E2B /* PhoneValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C046F62715C9A200197E2B /* PhoneValidation.swift */; };
+		85C046F92715D60A00197E2B /* SinglePageUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C046F82715D60A00197E2B /* SinglePageUI.swift */; };
+		85C046FB2715ECA900197E2B /* LastPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C046FA2715ECA900197E2B /* LastPage.swift */; };
 		85C3FF7926FE4C93001B8C79 /* Mobillian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C3FF7826FE4C93001B8C79 /* Mobillian.swift */; };
 		85DC412E2711A924001B7A68 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC412D2711A924001B7A68 /* Project.swift */; };
 		85DC41302711DC30001B7A68 /* ApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC412F2711DC30001B7A68 /* ApiTest.swift */; };
@@ -47,11 +54,34 @@
 			remoteGlobalIDString = 859E0E3A26F88ADD0039C1C8;
 			remoteInfo = Mobillian;
 		};
+		85C046F12715882000197E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 859E0E3226F88ADD0039C1C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 859E0E3A26F88ADD0039C1C8;
+			remoteInfo = Mobillian;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		85C046F32715882000197E2B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				85C046F02715882000197E2B /* Mobillian.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		8528B78E2714256700B711CC /* SurveyUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyUI.swift; sourceTree = "<group>"; };
-		8528B7912714550900B711CC /* SurveyUIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyUIDelegate.swift; sourceTree = "<group>"; };
+		8528B78E2714256700B711CC /* SurveyLayoutUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyLayoutUI.swift; sourceTree = "<group>"; };
+		8528B7932714E02400B711CC /* eSurveyStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eSurveyStep.swift; sourceTree = "<group>"; };
+		8528B79D2714E45600B711CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8528B79F2714E46C00B711CC /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		852F5E09270DDFBF00DB888B /* GetApiAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApiAddress.swift; sourceTree = "<group>"; };
 		852F5E0F270F004400DB888B /* GeneralKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralKeys.swift; sourceTree = "<group>"; };
 		852F5E15270F026F00DB888B /* MobillianApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobillianApiKeys.swift; sourceTree = "<group>"; };
@@ -72,6 +102,10 @@
 		859E0E6626F88C100039C1C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		859E0E6926F88C100039C1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859E0E6B26F88C100039C1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C046F42715C29600197E2B /* LandingStandart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingStandart.swift; sourceTree = "<group>"; };
+		85C046F62715C9A200197E2B /* PhoneValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidation.swift; sourceTree = "<group>"; };
+		85C046F82715D60A00197E2B /* SinglePageUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePageUI.swift; sourceTree = "<group>"; };
+		85C046FA2715ECA900197E2B /* LastPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPage.swift; sourceTree = "<group>"; };
 		85C3FF7826FE4C93001B8C79 /* Mobillian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobillian.swift; sourceTree = "<group>"; };
 		85DC412D2711A924001B7A68 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		85DC412F2711DC30001B7A68 /* ApiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTest.swift; sourceTree = "<group>"; };
@@ -107,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C046EF2715882000197E2B /* Mobillian.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,17 +151,13 @@
 		8528B78D2714253900B711CC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8528B78E2714256700B711CC /* SurveyUI.swift */,
+				8528B78E2714256700B711CC /* SurveyLayoutUI.swift */,
+				85C046F42715C29600197E2B /* LandingStandart.swift */,
+				85C046F62715C9A200197E2B /* PhoneValidation.swift */,
+				85C046F82715D60A00197E2B /* SinglePageUI.swift */,
+				85C046FA2715ECA900197E2B /* LastPage.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		8528B790271454D800B711CC /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				8528B7912714550900B711CC /* SurveyUIDelegate.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		852F5E05270DDF9C00DB888B /* Manager */ = {
@@ -163,6 +194,7 @@
 				859E0E4826F88ADE0039C1C8 /* MobillianTests */,
 				859E0E5C26F88C0C0039C1C8 /* MobillianExamples */,
 				859E0E3C26F88ADE0039C1C8 /* Products */,
+				85C046EE2715882000197E2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,7 +211,6 @@
 		859E0E3D26F88ADE0039C1C8 /* Mobillian */ = {
 			isa = PBXGroup;
 			children = (
-				8528B790271454D800B711CC /* Protocols */,
 				8528B78D2714253900B711CC /* Views */,
 				852F5E14270F020800DB888B /* Api */,
 				852F5E0E270F001E00DB888B /* Keys */,
@@ -190,6 +221,7 @@
 				859E0E3F26F88ADE0039C1C8 /* Info.plist */,
 				85C3FF7826FE4C93001B8C79 /* Mobillian.swift */,
 				85E58771270B8E0900085B9A /* MOBApplicationService.swift */,
+				8528B79E2714E45600B711CC /* Localizable.strings */,
 			);
 			path = Mobillian;
 			sourceTree = "<group>";
@@ -225,6 +257,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		85C046EE2715882000197E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85DC412C2711A902001B7A68 /* Project */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +277,7 @@
 			children = (
 				85E58777270B910A00085B9A /* eGenderFilter.swift */,
 				85E5877C270B91A400085B9A /* eAgeFilter.swift */,
+				8528B7932714E02400B711CC /* eSurveyStep.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -331,10 +371,12 @@
 				859E0E5726F88C0C0039C1C8 /* Sources */,
 				859E0E5826F88C0C0039C1C8 /* Frameworks */,
 				859E0E5926F88C0C0039C1C8 /* Resources */,
+				85C046F32715882000197E2B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				85C046F22715882000197E2B /* PBXTargetDependency */,
 			);
 			name = MobillianExamples;
 			productName = MobillianExamples;
@@ -369,6 +411,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 859E0E3126F88ADD0039C1C8;
 			productRefGroup = 859E0E3C26F88ADE0039C1C8 /* Products */;
@@ -387,6 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8528B79C2714E45600B711CC /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +458,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8528B7922714550900B711CC /* SurveyUIDelegate.swift in Sources */,
 				85C3FF7926FE4C93001B8C79 /* Mobillian.swift in Sources */,
-				8528B78F2714256700B711CC /* SurveyUI.swift in Sources */,
+				8528B78F2714256700B711CC /* SurveyLayoutUI.swift in Sources */,
+				85C046F92715D60A00197E2B /* SinglePageUI.swift in Sources */,
+				8528B7942714E02400B711CC /* eSurveyStep.swift in Sources */,
 				85DC41302711DC30001B7A68 /* ApiTest.swift in Sources */,
 				85DC413A2712234F001B7A68 /* rsSurveyLink.swift in Sources */,
 				85E58778270B910A00085B9A /* eGenderFilter.swift in Sources */,
@@ -424,11 +469,14 @@
 				852F5E28270F127900DB888B /* rsApiBase.swift in Sources */,
 				85E5877D270B91A400085B9A /* eAgeFilter.swift in Sources */,
 				85DC412E2711A924001B7A68 /* Project.swift in Sources */,
+				85C046F72715C9A200197E2B /* PhoneValidation.swift in Sources */,
 				85DC413227120F56001B7A68 /* ApiGetSurveyLink.swift in Sources */,
 				852F5E23270F08DC00DB888B /* rqProject.swift in Sources */,
 				852F5E16270F026F00DB888B /* MobillianApiKeys.swift in Sources */,
 				85E58788270B937100085B9A /* rqProjectFilter.swift in Sources */,
 				85DC413827121085001B7A68 /* rqResponderInfo.swift in Sources */,
+				85C046F52715C29600197E2B /* LandingStandart.swift in Sources */,
+				85C046FB2715ECA900197E2B /* LastPage.swift in Sources */,
 				85DC413627121034001B7A68 /* rqSurveyLink.swift in Sources */,
 				85E5878F270B99B600085B9A /* rsProject.swift in Sources */,
 				852F5E10270F004400DB888B /* GeneralKeys.swift in Sources */,
@@ -464,9 +512,24 @@
 			target = 859E0E3A26F88ADD0039C1C8 /* Mobillian */;
 			targetProxy = 859E0E4626F88ADE0039C1C8 /* PBXContainerItemProxy */;
 		};
+		85C046F22715882000197E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 859E0E3A26F88ADD0039C1C8 /* Mobillian */;
+			targetProxy = 85C046F12715882000197E2B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8528B79E2714E45600B711CC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8528B79D2714E45600B711CC /* en */,
+				8528B79F2714E46C00B711CC /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		859E0E6826F88C100039C1C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -482,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -546,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

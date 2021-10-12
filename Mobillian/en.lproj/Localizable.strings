@@ -1,0 +1,18 @@
+
+"landing.start" = "Start Survey";
+"landing.surveytime" = "Survey Duration";
+"landing.phonevalidation" = "Phone Validation";
+"landing.fittest" = "Audience Fit Test";
+"landing.questcount" = "Number of Question";
+"landing.yes" = "Yes";
+"landing.no" = "No";
+"landing.min." = "min.";
+"landing.validationcode" = "Validation Code";
+"landing.phonenumber" = "Phone Number";
+"landing.codeenterthisfield" = "Please enter code this field";
+"landing.sendcode" = "Send Code";
+"landing.sendagaincode" = "Send Again";
+"landing.mandatoryDisclosure" = "Mandatory Disclosure";
+"landing.info1" = "The survey we are about to fill out is being done on behalf of a customer, and the survey results will be used to inform our customer or customers without matching your personal information.";
+"landing.info2" = "Some of your personal information will be taken to ensure the security and progress of the survey. For this, we expect you to read and approve the KVKK consent text below.";
+"landing.kvkkinfo" = "In order to have more information about your data to be stored in accordance with the Personal Data Protection Law, read our KVKK Policy and confirm with the box on the side.";

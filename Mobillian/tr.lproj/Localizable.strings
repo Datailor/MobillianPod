@@ -1,0 +1,18 @@
+
+"landing.start" = "Ankete Başla";
+"landing.surveytime" = "Tahmini Anket Süresi";
+"landing.phonevalidation" = "Telefon Doğrulama";
+"landing.fittest" = "Kitle Uygunluk Testi";
+"landing.questcount" = "Anket Soru Sayısı";
+"landing.yes" = "Var";
+"landing.no" = "Yok";
+"landing.min." = "dk.";
+"landing.validationcode" = "Doğrulama Kodu";
+"landing.phonenumber" = "Telefon Numarası";
+"landing.codeenterthisfield" = "Telefonunuza gelen kodu buraya giriniz";
+"landing.sendcode" = "Kodu Gönder";
+"landing.sendagaincode" = "Kodu Tekrar Gönder";
+"landing.mandatoryDisclosure" = "Zorunlu Bilgilendirme";
+"landing.info1" = "Doldurmak üzere olduğuz anket bir müşterimiz adında yapılmakta olup, anket sonuçları kişisel bilgileriniz ile eşleştirilmeden müşteri veya müşterilerimizi bilgilendirmek için kullanılacaktır.";
+"landing.info2" = "Anket güvenliği ve hakedişlerini garanti altına almak için bazı kişisel bilgileriniz alınacaktır, bunun için aşaüıdaki KVKK rıza metnini okuyarak onaylamanızı bekliyoruz.";
+"landing.kvkkinfo" = "Kişisel Verilerin Korunması Kanunu'na uygun olarak saklanacak verileriniz hakkında daha fazla bilgi sahibi olabilmek adına KVKK Polikamızı okuyunuz ve yandaki kutucuk ile onaylayınız.";
