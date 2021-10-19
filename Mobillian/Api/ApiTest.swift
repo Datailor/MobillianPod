@@ -32,3 +32,36 @@ func ApiTest(apikey: String)->[String] {
     return r
 }
     
+
+
+
+func SurveyApiTest(apikey: String)->[String] {
+    
+    print("Call Mobillian SurveyApiTest")
+
+    let semaphore = DispatchSemaphore (value: 0)
+    let request = GetSurveyApiAddress(subadress: "definition/opentestget", httpMethod: "GET")
+    var r:[String] = []
+    
+    let task = URLSession.shared.dataTask(with: request) { data, response, error in
+        guard let data = data else {
+            print(String(describing: error))
+            semaphore.signal()
+            return
+        }
+        
+        do{
+            r = try JSONDecoder().decode([String].self, from: data)
+        }catch _ {
+            let str = String(data: data, encoding: .utf8)
+            print(str!)
+        }
+        semaphore.signal()
+    }
+
+    task.resume()
+    semaphore.wait()
+    
+    return r
+}
+    

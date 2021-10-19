@@ -19,7 +19,7 @@ struct LastPage: View {
             
             Text("Ankete katılımınız için teşekkür ederiz.")
                 .font(.system(size: 20))
-                .foregroundColor(Color.init("MobillianBlue"))
+                .foregroundColor(Color.init(red: 0, green: 0.6, blue: 0.973))
                 .multilineTextAlignment(.center)
                 .padding(.top, 16)
                 .padding(.trailing, 8)
@@ -37,7 +37,7 @@ struct LastPage: View {
                 }
                 .padding()
                 .frame(width:UIScreen.main.bounds.size.width - 16)
-                .background(Color.init("MobillianBlue"))
+                .background(Color.init(red: 0, green: 0.6, blue: 0.973))
                 .cornerRadius(26)
             }
             .padding(.bottom, 16)

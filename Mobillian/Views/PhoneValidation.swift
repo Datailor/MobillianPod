@@ -17,7 +17,7 @@ struct PhoneValidation: View {
 
             Text("Telefon Doğrulama")
                 .font(.system(size: 20))
-                .foregroundColor(Color.init("MobillianBlue"))
+                .foregroundColor(Color.init(red: 0, green: 0.6, blue: 0.973))
                 .multilineTextAlignment(.center)
                 .padding(.top, 16)
                 .padding(.trailing, 8)
@@ -37,7 +37,7 @@ struct PhoneValidation: View {
                     }
                     .padding()
                     .frame(width:UIScreen.main.bounds.size.width - 16)
-                    .background(Color.init("MobillianGreen"))
+                    .background(Color.init(red: 0.549, green: 0.847, blue: 0))
                     .cornerRadius(26)
             }
             

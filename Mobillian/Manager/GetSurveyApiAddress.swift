@@ -1,9 +1,8 @@
 
-import Foundation
-
-func GetApiAddress(subadress: String, ApiKey: String, httpMethod: String = "POST") -> URLRequest {
+func GetSurveyApiAddress(subadress: String,  httpMethod: String = "POST") -> URLRequest {
+    //ApiKey: String,
     
-    let CloudAddress: String = "http://api.mobillian.co/"
+    let CloudAddress: String = "http://surveyapi.mobillian.co/"
     
     var request = URLRequest(url: URL(string: CloudAddress + subadress)!,timeoutInterval: Double.infinity)
     
@@ -13,14 +12,10 @@ func GetApiAddress(subadress: String, ApiKey: String, httpMethod: String = "POST
     request.addValue("application/json", forHTTPHeaderField: "Content-Type")
     request.httpMethod = httpMethod
     
-    request.addValue(ApiKey, forHTTPHeaderField: "apikey")
+    //request.addValue(ApiKey, forHTTPHeaderField: "apikey")
         
     
     return request
 }
-
-
-
-
 
 
