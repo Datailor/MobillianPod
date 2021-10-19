@@ -141,14 +141,14 @@ public struct SurveyLayoutUI: View,
         
         //Survey Form
         let msf: msdlConfigModel = mobillian.GetSurveyForm(surveykey: sk)
-        print("----1-----")
+        print("----1----")
         print(msf.questionnaire.count)
-        print("----2-----")
+        print("----2----")
         msdlconfigmodel.questionnaire = msf.questionnaire
         msdlconfigmodel.info = msf.info
         
         print(String(msdlconfigmodel.questionnaire.count))
-        print("------------")
+        print("----xx----")
         
         
         
